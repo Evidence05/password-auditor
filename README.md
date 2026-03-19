@@ -2,7 +2,7 @@
 
 A command-line tool that audits password security by cracking hashed passwords against a wordlist, scoring each recovered password's strength, and generating reports in terminal, HTML, and CSV formats.
 
-Built as part of a cybersecurity portfolio — demonstrating knowledge of hashing algorithms, dictionary attacks, and password security assessment.
+Built as part of a cybersecurity portfolio. demonstrating knowledge of hashing algorithms, dictionary attacks, and password security assessment.
 
 ---
 
@@ -10,10 +10,10 @@ Built as part of a cybersecurity portfolio — demonstrating knowledge of hashin
 
 - **Dictionary attack** against MD5, SHA-1, SHA-256, SHA-512, and NTLM hashes
 - **Auto-detects** hash algorithm from hash length
-- **Strength scoring** — rates each cracked password across 6 criteria (length, complexity, character classes, commonality)
+- **Strength scoring** rates each cracked password across 6 criteria (length, complexity, character classes, commonality)
 - **Coloured terminal output** with live progress and speed metrics
-- **HTML report** — clean dark-themed report with strength breakdowns
-- **CSV export** — structured output for further analysis
+- **HTML report** clean dark-themed report with strength breakdowns
+- **CSV export** structured output for further analysis
 - Single hash mode or bulk file mode
 
 ---
